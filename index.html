@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>SWG</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+	<div class="header">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><img class="logo" src="images/logo.png" alt=""></a>
+			</div>
+			<span class="menu"></span>
+			<div class="navigation">
+				<ul class="navig cl-effect-3">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="blog.html">Walkthrough</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="features.html">About Us</a></li>
+				</ul>
+				<div class="search-bar">
+					<input type="text" placeholder="Search" required="" />
+					<input type="submit" value="" />
+				</div>
+				<div class="clearfix"></div>
+				<script>
+					$("span.menu").click(function() {
+						$(".navigation").slideToggle("slow", function() {
+							// Animation complete.
+						});
+					});
+				</script>
+
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+
+	<div class="banner">
+		<div id="banner-area" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#banner-area" data-slide-to="0" class="active"></li>
+				<li data-target="#banner-area" data-slide-to="1"></li>
+				<li data-target="#banner-area" data-slide-to="2"></li>
+				<li data-target="#banner-area" data-slide-to="3"></li>
+				<li data-target="#banner-area" data-slide-to="4"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img class="banner-image" src="images/TLOU2.png" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h1>The Last Of Us 2</h1>
+						<p>Is The Last Of Us 2 the best game of this Generation??</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img class="banner-image" src="images/cp.png" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h1>Cyberpunk 2077</h1>
+						<p>Cyberpunk 2077 is finally out!! It is scheduled to be released for Microsoft Windows, PlayStation 4, PlayStation 5, Stadia, Xbox One, and Xbox Series X/S on 10 December 2020.</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img class="banner-image" src="images/SMMM.png" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h1>Spider-Man Miles Morales</h1>
+						<p>Marvel's Spider-Man: Miles Morales is out!! Marvel Comics has just revealed that Miles Morales is the strongest Spider-Man - when you're looking at something more important than just muscles.</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img class="banner-image" src="images/ACV.png" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h1>Assassin's Creed Valhalla </h1>
+						<p>Assassin's Creed Valhalla is a very competent game. There's far too much polish and too much content for anyone to have any major problems with it. Player takes on the role of Eivor (/ˈeɪvɔːr/), a Viking raider, as they lead their
+							fellow Vikings against the Anglo-Saxon kingdoms.</p>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img class="banner-image" src="images/MA.png" class="d-block w-100" alt="...">
+					<div class="carousel-caption d-none d-md-block">
+						<h1>Marvel's Avengers</h1>
+						<p>Marvel's Avengers is an epic, third-person, action-adventure game that combines an original, cinematic story with single-player and co-operative gameplay. What are your thoughts on this game??</p>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#banner-area" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#banner-area" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+
+	<div class="banner-bot">
+		<div class="container">
+			<h2>Hello!</h2>
+			<p>This Website is an online platform that allow you to see the latest games released and the review of various games that are already released. In this Website, you can either read the complete walkthrough or watch it on YouTube. You can also
+				read the Exploration Tips, Combat Tips, Collectible Guide and many more things related to a particular game.</p>
+			<p>However like all reviews just because a game has poor reviews doesn't mean you won’t like it. The only way to know if it’s a video game you’ll like is to watch gameplay videos and then try it out for yourself.</p>
+			<nav class="cl-effect-3"><a href="#">More</a></nav>
+		</div>
+	</div>
+
+	<div id="ngames" class="gallery">
+		<div class="container">
+			<h3>Gameplay Available</h3>
+
+			<div class="card-columns">
+
+
+				<div class="card">
+					<a href="https://www.youtube.com/playlist?list=PLs1-UdHIwbo64WG2I_FLfpFMZzqft2lTS"><img src="images/pic1.png" class="card-img-top" alt="..."></a>
+				</div>
+
+				<div class="card">
+					<a href="https://www.youtube.com/playlist?list=PLs1-UdHIwbo61pzwr3AmnrvVGnzCwNNYr"><img src="images/pic2.png" class="card-img-top" alt="..."></a>
+				</div>
+
+				<div class="card">
+					<a href="https://www.youtube.com/playlist?list=PLs1-UdHIwbo7ZM1deye45j7JxZN1aNrwL"><img src="images/pic3.png" class="card-img-top" alt="..."></a>
+				</div>
+
+				<div class="card">
+					<a href="https://www.youtube.com/playlist?list=PLs1-UdHIwbo64OPMvsZWlujEGSHGRSKTf"><img src="images/pic4.png" class="card-img-top" alt="..."></a>
+				</div>
+
+				<div class="card">
+					<img src="images/pic5.png" class="card-img-top" alt="...">
+				</div>
+
+				<div class="card">
+					<img src="images/pic6.jpg" class="card-img-top" alt="...">
+				</div>
+
+				<div class="card">
+					<img src="images/pic7.jpg" class="card-img-top" alt="...">
+				</div>
+
+				<div class="card">
+					<img src="images/pic8.jpg" class="card-img-top" alt="...">
+				</div>
+
+				<div class="card">
+					<img src="images/pic9.png" class="card-img-top" alt="...">
+				</div>
+
+				<div class="card">
+					<img src="images/pic10.jpg" class="card-img-top" alt="...">
+				</div>
+
+				<div class="card">
+					<img src="images/pic11.jpg" class="card-img-top" alt="...">
+				</div>
+
+				<div class="card">
+					<a href="https://www.youtube.com/playlist?list=PLs1-UdHIwbo497viX2cCYHUNVBsORkhbl"><img src="images/pic12.jpg" class="card-img-top" alt="..."></a>
+				</div>
+
+				<div class="card">
+					<img src="images/pic13.jpg" class="card-img-top" alt="...">
+				</div>
+
+				<div class="card">
+					<img src="images/pic14.jpg" class="card-img-top" alt="...">
+				</div>
+
+				<div class="card">
+					<img src="images/pic15.jpg" class="card-img-top" alt="...">
+				</div>
+
+				<div class="card">
+					<img src="images/pic16.jpg" class="card-img-top" alt="...">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="video-serch">
+		<div class="container">
+			<div class="col-md-6 vid-col">
+				<p>"Nothing is true, everything is permitted.” – Assassin’s Creed franchise</p>
+				<div class="more">
+					<a href="#">See more Quotes</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer id="footer">
+
+		<i class="fab fa-twitter footer-button"></i>
+		<i class="fab fa-facebook-f footer-button"></i>
+		<i class="fab fa-instagram footer-button"></i>
+		<i class="fas fa-envelope footer-button"></i>
+		<p>© Copyright 2020 Soap's World of Gaming</p>
+
+	</footer>
+
+</body>
+
+</html>
+
+
+
+
+<!-- <div class="gallery-top">
+	<div id="portfoliolist">
+		<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+			<div class="portfolio-wrapper">
+				<a href="index.html" class="b-link-stripe b-animate-go  thickbox">
+					<img src="images/pic1.png" />
+					<div class="b-wrapper">
+						<h2 class="b-animate b-from-left    b-delay03 "> </h2>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+			<div class="portfolio-wrapper">
+				<a href="index.html" class="b-link-stripe b-animate-go  thickbox">
+					<img src="images/pic2.png" />
+					<div class="b-wrapper">
+						<h2 class="b-animate b-from-left    b-delay03 "> </h2>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+			<div class="portfolio-wrapper">
+				<a href="index.html" class="b-link-stripe b-animate-go  thickbox">
+					<img src="images/pic3.png" />
+					<div class="b-wrapper">
+						<h2 class="b-animate b-from-left    b-delay03 "> </h2>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="portfolio logos mix_all" data-cat="logo" style="display: inline-block; opacity: 1;">
+			<div class="portfolio-wrapper">
+				<a href="index.html" class="b-link-stripe b-animate-go  thickbox">
+					<img src="images/pic4.png" />
+					<div class="b-wrapper">
+						<h2 class="b-animate b-from-left    b-delay03 "> </h2>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+			<div class="portfolio-wrapper">
+				<a href="index.html" class="b-link-stripe b-animate-go  thickbox">
+					<img src="images/pic5.png" />
+					<div class="b-wrapper">
+						<h2 class="b-animate b-from-left    b-delay03 "> </h2>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+			<div class="portfolio-wrapper">
+				<a href="index.html" class="b-link-stripe b-animate-go  thickbox">
+					<img src="images/pic6.jpg" />
+					<div class="b-wrapper">
+						<h2 class="b-animate b-from-left    b-delay03 "> </h2>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+			<div class="portfolio-wrapper">
+				<a href="index.html" class="b-link-stripe b-animate-go  thickbox">
+					<img src="images/pic7.jpg" />
+					<div class="b-wrapper">
+						<h2 class="b-animate b-from-left    b-delay03 "> </h2>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+			<div class="portfolio-wrapper">
+				<a href="index.html" class="b-link-stripe b-animate-go  thickbox">
+					<img src="images/pic8.jpg" />
+					<div class="b-wrapper">
+						<h2 class="b-animate b-from-left    b-delay03 "> </h2>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+			<div class="portfolio-wrapper">
+				<a href="index.html" class="b-link-stripe b-animate-go  thickbox">
+					<img src="images/pic9.png" />
+					<div class="b-wrapper">
+						<h2 class="b-animate b-from-left    b-delay03 "> </h2>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+			<div class="portfolio-wrapper">
+				<a href="index.html" class="b-link-stripe b-animate-go  thickbox">
+					<img src="images/pic10.jpg" />
+					<div class="b-wrapper">
+						<h2 class="b-animate b-from-left    b-delay03 "> </h2>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+			<div class="portfolio-wrapper">
+				<a href="index.html" class="b-link-stripe b-animate-go  thickbox">
+					<img src="images/pic11.jpg" />
+					<div class="b-wrapper">
+						<h2 class="b-animate b-from-left    b-delay03 "> </h2>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+			<div class="portfolio-wrapper">
+				<a href="index.html" class="b-link-stripe b-animate-go  thickbox">
+					<img src="images/pic12.jpg" />
+					<div class="b-wrapper">
+						<h2 class="b-animate b-from-left    b-delay03 "> </h2>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+			<div class="portfolio-wrapper">
+				<a href="index.html" class="b-link-stripe b-animate-go  thickbox">
+					<img src="images/pic13.jpg" />
+					<div class="b-wrapper">
+						<h2 class="b-animate b-from-left    b-delay03 "> </h2>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+			<div class="portfolio-wrapper">
+				<a href="index.html" class="b-link-stripe b-animate-go  thickbox">
+					<img src="images/pic14.jpg" />
+					<div class="b-wrapper">
+						<h2 class="b-animate b-from-left    b-delay03 "> </h2>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+			<div class="portfolio-wrapper">
+				<a href="index.html" class="b-link-stripe b-animate-go  thickbox">
+					<img src="images/pic15.jpg" />
+					<div class="b-wrapper">
+						<h2 class="b-animate b-from-left    b-delay03 "> </h2>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+			<div class="portfolio-wrapper">
+				<a href="index.html" class="b-link-stripe b-animate-go  thickbox">
+					<img src="images/pic16.jpg" />
+					<div class="b-wrapper">
+						<h2 class="b-animate b-from-left    b-delay03 "> </h2>
+					</div>
+				</a>
+			</div>
+		</div>
+
+
+	</div>
+ -->
